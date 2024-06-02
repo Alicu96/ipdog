@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-CHECK_INTERVAL_SEC = int(os.getenv('CHECK_INTERVAL'))
+CHECK_INTERVAL_SEC = int(os.getenv('CHECK_INTERVAL_SEC'))
 
 
 def send_telegram_message(message):

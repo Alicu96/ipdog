@@ -15,6 +15,7 @@ This application monitors the public IP address of the device and notifies the u
 ```text
 TELEGRAM_TOKEN=your_telegram_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
+CHECK_INTERVAL_SEC=interval_in_second_for_checking_ip
 ```
 
 2. Build the Docker image:

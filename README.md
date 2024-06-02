@@ -21,14 +21,12 @@ CHECK_INTERVAL_SEC=interval_in_second_for_checking_ip
 2. Build the Docker image:
 
 ```bash
-bash
 docker build -t ip_monitor .
 ```
 
 3. Run the Docker container:
 
 ```bash
-bash
 docker run ip_monitor
 ```
 

@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir requests
+RUN pip install -r requirements.txt
 
 # Run ip_monitor.py when the container launches
 CMD ["python", "ip_monitor.py"]
